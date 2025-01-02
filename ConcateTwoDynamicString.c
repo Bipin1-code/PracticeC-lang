@@ -60,11 +60,13 @@ int main(){
   char *arr1 = createArray(size);
   if( arr1 == NULL){
     printf("Array-1 creatation failed.\n");
+    return 1;
   }
   size_t size1 = strlen(arr1);
   char *arr2 = createArray(size);
   if( arr1 == NULL){
     printf("Array-2 creatation failed.\n");
+    return 1;
   }
   size_t size2 = strlen(arr2);
   
