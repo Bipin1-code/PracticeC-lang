@@ -102,6 +102,4 @@ int main(){
    while other dataType have different bytes so we need to find the exact size for each int variable
    that's why we find value of int and product it with number of int type variable its gonna store.
 
-
-   We can this above program, We will do when we have time.
  */
