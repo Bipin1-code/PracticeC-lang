@@ -114,6 +114,10 @@ int main(){
     } 
   }
   printf("The best student is %s with best average %.02f\n", bestStudent, highest);
-
+  
+  for(size_t i = 0; i < numOfStd; i++) {
+     free(st[i].subject); // Free the dynamically allocated memory for subject
+    }
+  free(st);
   return 0;
 }
